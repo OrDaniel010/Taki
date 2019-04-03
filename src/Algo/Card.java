@@ -44,173 +44,173 @@ public class Card extends JLabel {
         case 'b':
         	switch (type) {
         	case 1:
-        		ImageIcon Ones = new ImageIcon("Resources\\blue\\1B.png");
+        		ImageIcon Ones = new ImageIcon("Resources\blue\1B.png");
             	this.setIcon(Ones);
             	return this;
             case 2:
-            	ImageIcon Twos = new ImageIcon("Resources\\blue\\2B.png");
+            	ImageIcon Twos = new ImageIcon("Resources\blue\2B.png");
             	this.setIcon(Twos);
             	return this;
             case 3:
-            	ImageIcon Threes = new ImageIcon("Resources\\blue\\3B.png");
+            	ImageIcon Threes = new ImageIcon("Resources\blue\3B.png");
             	this.setIcon(Threes);
             	return this;
             case 4:
-            	ImageIcon Fours = new ImageIcon("Resources\\blue\\4B.png");
+            	ImageIcon Fours = new ImageIcon("Resources\blue\4B.png");
             	this.setIcon(Fours);
             	return this;
             case 5:
-            	ImageIcon Fives = new ImageIcon("Resources\\blue\\5B.png");
+            	ImageIcon Fives = new ImageIcon("Resources\blue\5B.png");
             	this.setIcon(Fives);
             	return this;
             case 6:
-            	ImageIcon Sixs = new ImageIcon("Resources\\blue\\6B.png");
+            	ImageIcon Sixs = new ImageIcon("Resources\blue\6B.png");
             	this.setIcon(Sixs);
             	return this;
             case 7:
-            	ImageIcon Sevens = new ImageIcon("Resources\\blue\\7B.png");
+            	ImageIcon Sevens = new ImageIcon("Resources\blue\7B.png");
             	this.setIcon(Sevens);
             	return this;
             case 8:
-            	ImageIcon Eights = new ImageIcon("Resources\\blue\\8B.png");
+            	ImageIcon Eights = new ImageIcon("Resources\blue\8B.png");
             	this.setIcon(Eights);
             	return this;
             case 9:
-            	ImageIcon Nines = new ImageIcon("Resources\\blue\\9B.png");
+            	ImageIcon Nines = new ImageIcon("Resources\blue\9B.png");
             	this.setIcon(Nines);
             	return this;
             case 10: // Blue Change Direction
-            	ImageIcon CDB = new ImageIcon("Resources\\blue\\CDB.png");
+            	ImageIcon CDB = new ImageIcon("Resources\blue\CDB.png");
             	this.setIcon(CDB);
             	return this;
             case 11: // Blue Plus One
-            	ImageIcon POB = new ImageIcon("Resources\\blue\\PB.png");
+            	ImageIcon POB = new ImageIcon("Resources\blue\PB.png");
             	this.setIcon(POB);
             	return this;
             case 12: // Blue Stop
-            	ImageIcon SB = new ImageIcon("Resources\\blue\\StopB.png");
+            	ImageIcon SB = new ImageIcon("Resources\blue\StopB.png");
             	this.setIcon(SB);
             	return this;
             case 13: // Blue Taki
-            	ImageIcon TB = new ImageIcon("Resources\\blue\\TakiB.png");
+            	ImageIcon TB = new ImageIcon("Resources\blue\TakiB.png");
             	this.setIcon(TB);
             	return this;
             default: 
-            	ImageIcon BG = new ImageIcon("Resources\\other\\Back.png");
+            	ImageIcon BG = new ImageIcon("Resources\other\Back.png");
             	this.setIcon(BG);
             	return this;              		
             }
         case 'y':
         	switch (type) {
         	case 1:
-        		ImageIcon Ones = new ImageIcon("Resources\\yellow\\1B.png");
+        		ImageIcon Ones = new ImageIcon("Resources\yellow\1Y.png");
             	this.setIcon(Ones);
             	return this;
             case 2:
-            	ImageIcon Twos = new ImageIcon("Resources\\yellow\\2B.png");
+            	ImageIcon Twos = new ImageIcon("Resources\yellow\2Y.png");
             	this.setIcon(Twos);
             	return this;
             case 3:
-            	ImageIcon Threes = new ImageIcon("Resources\\yellow\\3B.png");
+            	ImageIcon Threes = new ImageIcon("Resources\yellow\3Y.png");
             	this.setIcon(Threes);
             	return this;
             case 4:
-            	ImageIcon Fours = new ImageIcon("Resources\\yellow\\4B.png");
+            	ImageIcon Fours = new ImageIcon("Resources\yellow\4Y.png");
             	this.setIcon(Fours);
             	return this;
             case 5:
-            	ImageIcon Fives = new ImageIcon("Resources\\yellow\\5B.png");
+            	ImageIcon Fives = new ImageIcon("Resources\yellow\5Y.png");
             	this.setIcon(Fives);
             	return this;
             case 6:
-            	ImageIcon Sixs = new ImageIcon("Resources\\yellow\\6B.png");
+            	ImageIcon Sixs = new ImageIcon("Resources\yellow\6Y.png");
             	this.setIcon(Sixs);
             	return this;
             case 7:
-            	ImageIcon Sevens = new ImageIcon("Resources\\yellow\\7B.png");
+            	ImageIcon Sevens = new ImageIcon("Resources\yellow\7Y.png");
             	this.setIcon(Sevens);
             	return this;
             case 8:
-            	ImageIcon Eights = new ImageIcon("Resources\\yellow\\8B.png");
+            	ImageIcon Eights = new ImageIcon("Resources\yellow\8Y.png");
             	this.setIcon(Eights);
             	return this;
             case 9:
-            	ImageIcon Nines = new ImageIcon("Resources\\yellow\\9B.png");
+            	ImageIcon Nines = new ImageIcon("Resources\yellow\9Y.png");
             	this.setIcon(Nines);
             	return this;
             case 10: // yellow Change Direction
-            	ImageIcon CDB = new ImageIcon("Resources\\yellow\\CDB.png");
+            	ImageIcon CDB = new ImageIcon("Resources\yellow\CDY.png");
             	this.setIcon(CDB);
             	return this;
             case 11: // yellow Plus One
-            	ImageIcon POB = new ImageIcon("Resources\\yellow\\PB.png");
+            	ImageIcon POB = new ImageIcon("Resources\yellow\PY.png");
             	this.setIcon(POB);
             	return this;
             case 12: // yellow Stop
-            	ImageIcon SB = new ImageIcon("Resources\\yellow\\StopB.png");
+            	ImageIcon SB = new ImageIcon("Resources\yellow\StopY.png");
             	this.setIcon(SB);
             	return this;
             case 13: // yellow Taki
-            	ImageIcon TB = new ImageIcon("Resources\\yellow\\TakiB.png");
+            	ImageIcon TB = new ImageIcon("Resources\yellow\TakiY.png");
             	this.setIcon(TB);
             	return this;
             default: 
-            	ImageIcon BG = new ImageIcon("Resources\\other\\Back.png");
+            	ImageIcon BG = new ImageIcon("Resources\other\Back.png");
             	this.setIcon(BG);
             	return this;              		
             }
         case 'g':
         	switch (type) {
         	case 1:
-        		ImageIcon Ones = new ImageIcon("Resources\\green\\1B.png");
+        		ImageIcon Ones = new ImageIcon("Resources\green\1G.png");
             	this.setIcon(Ones);
             	return this;
             case 2:
-            	ImageIcon Twos = new ImageIcon("Resources\\green\\2B.png");
+            	ImageIcon Twos = new ImageIcon("Resources\green\2G.png");
             	this.setIcon(Twos);
             	return this;
             case 3:
-            	ImageIcon Threes = new ImageIcon("Resources\\green\\3B.png");
+            	ImageIcon Threes = new ImageIcon("Resources\green\3G.png");
             	this.setIcon(Threes);
             	return this;
             case 4:
-            	ImageIcon Fours = new ImageIcon("Resources\\green\\4B.png");
+            	ImageIcon Fours = new ImageIcon("Resources\green\4G.png");
             	this.setIcon(Fours);
             	return this;
             case 5:
-            	ImageIcon Fives = new ImageIcon("Resources\\green\\5B.png");
+            	ImageIcon Fives = new ImageIcon("Resources\green\5G.png");
             	this.setIcon(Fives);
             	return this;
             case 6:
-            	ImageIcon Sixs = new ImageIcon("Resources\\green\\6B.png");
+            	ImageIcon Sixs = new ImageIcon("Resources\green\6G.png");
             	this.setIcon(Sixs);
             	return this;
             case 7:
-            	ImageIcon Sevens = new ImageIcon("Resources\\green\\7B.png");
+            	ImageIcon Sevens = new ImageIcon("Resources\green\7G.png");
             	this.setIcon(Sevens);
             	return this;
             case 8:
-            	ImageIcon Eights = new ImageIcon("Resources\\green\\8B.png");
+            	ImageIcon Eights = new ImageIcon("Resources\green\8G.png");
             	this.setIcon(Eights);
             	return this;
             case 9:
-            	ImageIcon Nines = new ImageIcon("Resources\\green\\9B.png");
+            	ImageIcon Nines = new ImageIcon("Resources\green\9G.png");
             	this.setIcon(Nines);
             	return this;
             case 10: // green Change Direction
-            	ImageIcon CDB = new ImageIcon("Resources\\green\\CDB.png");
+            	ImageIcon CDB = new ImageIcon("Resources\green\CDG.png");
             	this.setIcon(CDB);
             	return this;
             case 11: // green Plus One
-            	ImageIcon POB = new ImageIcon("Resources\\green\\PB.png");
+            	ImageIcon POB = new ImageIcon("Resources\green\PG.png");
             	this.setIcon(POB);
             	return this;
             case 12: // green Stop
-            	ImageIcon SB = new ImageIcon("Resources\\green\\StopB.png");
+            	ImageIcon SB = new ImageIcon("Resources\green\StopG.png");
             	this.setIcon(SB);
             	return this;
             case 13: // green Taki
-            	ImageIcon TB = new ImageIcon("Resources\\green\\TakiB.png");
+            	ImageIcon TB = new ImageIcon("Resources\green\TakiG.png");
             	this.setIcon(TB);
             	return this;
             default: 
@@ -221,55 +221,55 @@ public class Card extends JLabel {
         case 'r':
         	switch (type) {
         	case 1:
-        		ImageIcon Ones = new ImageIcon("Resources\\red\\1B.png");
+        		ImageIcon Ones = new ImageIcon("Resources\red\1R.png");
             	this.setIcon(Ones);
             	return this;
             case 2:
-            	ImageIcon Twos = new ImageIcon("Resources\\red\\2B.png");
+            	ImageIcon Twos = new ImageIcon("Resources\red\2R.png");
             	this.setIcon(Twos);
             	return this;
             case 3:
-            	ImageIcon Threes = new ImageIcon("Resources\\red\\3B.png");
+            	ImageIcon Threes = new ImageIcon("Resources\red\3R.png");
             	this.setIcon(Threes);
             	return this;
             case 4:
-            	ImageIcon Fours = new ImageIcon("Resources\\red\\4B.png");
+            	ImageIcon Fours = new ImageIcon("Resources\red\4R.png");
             	this.setIcon(Fours);
             	return this;
             case 5:
-            	ImageIcon Fives = new ImageIcon("Resources\\red\\5B.png");
+            	ImageIcon Fives = new ImageIcon("Resources\red\5R.png");
             	this.setIcon(Fives);
             	return this;
             case 6:
-            	ImageIcon Sixs = new ImageIcon("Resources\\red\\6B.png");
+            	ImageIcon Sixs = new ImageIcon("Resources\red\6R.png");
             	this.setIcon(Sixs);
             	return this;
             case 7:
-            	ImageIcon Sevens = new ImageIcon("Resources\\red\\7B.png");
+            	ImageIcon Sevens = new ImageIcon("Resources\red\7R.png");
             	this.setIcon(Sevens);
             	return this;
             case 8:
-            	ImageIcon Eights = new ImageIcon("Resources\\red\\8B.png");
+            	ImageIcon Eights = new ImageIcon("Resources\red\8R.png");
             	this.setIcon(Eights);
             	return this;
             case 9:
-            	ImageIcon Nines = new ImageIcon("Resources\\red\\9B.png");
+            	ImageIcon Nines = new ImageIcon("Resources\red\9R.png");
             	this.setIcon(Nines);
             	return this;
             case 10: // red Change Direction
-            	ImageIcon CDB = new ImageIcon("Resources\\red\\CDB.png");
+            	ImageIcon CDB = new ImageIcon("Resources\red\CDR.png");
             	this.setIcon(CDB);
             	return this;
             case 11: // red Plus One
-            	ImageIcon POB = new ImageIcon("Resources\\red\\PB.png");
+            	ImageIcon POB = new ImageIcon("Resources\red\PR.png");
             	this.setIcon(POB);
             	return this;
             case 12: // red Stop
-            	ImageIcon SB = new ImageIcon("Resources\\red\\StopB.png");
+            	ImageIcon SB = new ImageIcon("Resources\red\StopR.png");
             	this.setIcon(SB);
             	return this;
             case 13: // red Taki
-            	ImageIcon TB = new ImageIcon("Resources\\red\\TakiB.png");
+            	ImageIcon TB = new ImageIcon("Resources\red\TakiR.png");
             	this.setIcon(TB);
             	return this;
             default: 

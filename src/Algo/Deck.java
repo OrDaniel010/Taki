@@ -1,17 +1,15 @@
-package gui;
-import gui.Card;
-
+package Algo;
+import Algo.Card;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Stack;
 
 
-public class Deck {
-    
-
+public class Deck 
+{
     private HashMap<Integer, Card> cards;
-    
-    public Deck() {
+    public Deck() 
+    {
     	this.cards = new HashMap<Integer, Card>();
     	Random rand = new Random();
     	Stack<Card> one = new Stack<Card>();
@@ -78,7 +76,8 @@ public class Deck {
     }
     
     
-    public Card getNextCard() {
+    public Card getNextCard() 
+    {
     	Random rand = new Random();
     	int index = rand.nextInt(cards.size());
     	while (!cards.containsKey(index)){
@@ -88,5 +87,4 @@ public class Deck {
     	cards.remove(index);
     	return c;
    	}
-
 }
